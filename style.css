@@ -1,0 +1,781 @@
+/*
+Theme Name: dip198
+Author: 
+Description: Child Theme from Total
+Version: 1.0
+Template: Total
+
+This is the child theme for Total theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+/* Custom style theme */
+.top-header{
+    display: flex;
+    align-items: center;
+}
+.top-header .logo{
+    margin-right: 20px;
+}
+.top-header .logo img{
+    max-width: 60px;
+}
+.socials{
+    height: 100%;
+}
+.top-menu{
+    text-align: left;
+}
+.top-menu li a{
+    text-align: center;
+    font-size: 25px;
+}
+.nav__holder{
+    box-shadow: none;
+    border-bottom: 1px solid #eee;
+}
+.nav__herologo{
+    background-color: #fff;
+}
+.nav__menu > li > a{
+    font-weight: 400;
+}
+.nav__search-box{
+    z-index: 1;
+}
+.footer--dark{
+    background-color: #262626;
+}
+.footer--dark .textwidget{
+    color: #fff;
+}
+.footer--dark .footer__bottom{
+    background-color: #222;
+}
+.footer--dark .footer__bottom .footer__nav_menu .nav__menu{
+    text-align: center;
+}
+.footer--dark .footer__copyright{
+    text-align: center;
+}
+.socials--nobase a:hover, .socials--nobase a:focus{
+    background-color: transparent!important;
+    opacity: .8;
+}
+.section-posts .entry__article > p{
+    margin-bottom: 10px;
+    line-height: 24px;
+}
+
+.footer-widget-title{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.wp-block-contact-form-7-contact-form-selector #document_calk .title_field p{
+    font-size: 13px!important;
+}
+
+/* Custom elements */
+.btn-solid{
+    background: #0ea5e9;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    border-radius: 5px;
+}
+.btn-solid:hover{color: #fff;opacity: .8;}
+
+.color-cyan{
+    background-color: #06b6d4;
+}
+.color-emerald{
+    background-color: #10b981;
+}
+.color-indigo{
+    background-color: #6366f1;
+}
+.color-sky{
+    background-color: #0ea5e9;
+}
+.color-green{
+    background-color: #22c55e;
+}
+.color-violet{
+    background-color: #8b5cf6;
+}
+
+/* Карточка продукта */
+.product-item{
+    background: #fff;
+    padding: 30px;
+    border-radius: 0.5rem;
+    border: 1px solid #eeeeef;
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.product-item .title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.product-top .image{
+    margin-bottom: 20px;
+}
+.product-center{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.product-center p{
+    margin-bottom: 0;
+    position: relative;
+    line-height: 1;
+    padding-left: 30px;
+}
+.product-center p::before{
+    content: '\2714';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #22c55e;
+    left: 0;
+    top: 0;
+    color: #fff;
+}
+.product-info{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.product-info ul{
+    padding-left: 30px;
+}
+.product-info ul li{
+    position: relative;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.product-info ul li::before{
+    content: '\2714';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #22c55e;
+    left: -25px;
+    top: 3px;
+    color: #fff;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-item .price{
+    font-size: 32px;
+    font-weight: 700;
+    color: #20232a;
+    margin-bottom: 20px;
+}
+.btn-video{
+    padding: 8px 22px;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2;
+    color: #fff;
+    background: #6366f1;
+    width: 100%;
+    display: flex;
+    max-width: 230px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    border: 2px solid #6366f1;
+}
+.btn-video:hover{
+    transition:  all .5;
+    color: #6366f1;
+    background-color: #fff;
+}
+.btn-video span{
+    margin-left: 7px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255,.5);
+    font-size: 30px;
+}
+.btn-video:hover span{
+    background-color: #6366f1;
+    color: #fff;
+    transition:  all .5;
+}
+.btn-order{
+    padding: 8px 22px;
+    border-radius: 3rem;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 2;
+    color: #fff;
+    background: #22c55e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    border: 2px solid #22c55e;
+}
+.btn-order:hover{
+    transition:  all .5;
+    color: #22c55e;
+    background-color: #fff;
+}
+.btn-order:focus{
+    color: #fff;
+}
+
+/* Нижний блок над подвалом */
+.bottom__page{
+    padding: 30px 0;
+    border-top: 1px solid #1e73be;
+    background-color: #e0e0e0;
+}
+.bottom__page-text{
+    font-size: 18px;
+}
+
+/* Секция информация */
+.info-posts{
+    background-position: center;
+    position: relative;
+}
+.info-posts-container{
+    position: relative;
+    border-radius: 15px;
+    padding: 30px;
+}
+.info-posts-container:first-of-type{
+    margin-bottom: 25px;
+}
+.info-posts-container p{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+}
+.info-posts-container p span{
+    display: block;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+/* Секция акций для страницы акций */
+.actions-posts{
+    padding: 15px;
+    color: #fff;
+    position: relative;
+}
+.actions-posts::before{
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0,0,0, .3);
+}
+.content-action-title{
+    font-size: 62px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.content-action-container{
+    margin-left: 30px;
+}
+.content-action-item{
+    font-size: 24px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.content-action-item::before{
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: -25px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+}
+/* Секция цифровая информация */
+.section-number{
+    position: relative;
+}
+.section-number .content-number{
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    border-radius: 15px;
+}
+.section-number .content-number p{
+    color: #fff;
+}
+
+.content-number-title{
+    font-size: 36px;
+    font-weight: 800;
+}
+.content-number-subtitle{
+    font-size: 24px;
+}
+.content-number-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.content-number-item{
+    display: flex;
+    align-items: start;
+    flex: 1 0 50%;
+    margin-bottom: 25px;
+}
+.content-number-item p{
+    margin-bottom: 0;
+    font-size: 29px;
+    margin-left: 10px;
+    line-height: 36px;
+}
+.content-number-item p span{
+    display: block;
+    font-size: 36px;
+}
+
+/* Секция наша команда */
+.content-team-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content-team-item{
+    flex: 1 0 32%;
+    margin-left: 15px;
+}
+.content-team-item:first-of-type{
+    margin-left: 0;
+}
+.content-team-item .image{
+    margin-bottom: 15px;
+}
+.team-prof{
+    font-size: 20px;
+}
+.team-name{
+    font-size: 24px;
+    font-weight: 700;
+}
+.team-social{
+    font-size: 16px;
+}
+
+/* Секция фишка */
+.fishka-container{
+    display: flex;
+    justify-content: space-between;
+}
+.fishka-item{
+    flex: 1 0 32%;
+    padding: 15px;
+    margin-left: 15px;
+    color: #fff;
+    position: relative;
+}
+.fishka-item-1::before{
+    content: '1';
+    font-size: 250px;
+    font-weight: 700;
+    color: rgba(255,255,255,.3);
+    line-height: 1;
+}
+.fishka-item-2::before{
+    content: '2';
+    font-size: 250px;
+    font-weight: 700;
+    color: rgba(255,255,255,.3);
+    line-height: 1;
+}
+.fishka-item-3::before{
+    content: '3';
+    font-size: 250px;
+    font-weight: 700;
+    color: rgba(255,255,255,.3);
+    line-height: 1;
+}
+.fishka-item:first-of-type{
+    margin-left: 0;
+}
+.fishka-title{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+.fishka-content{
+    font-size: 16px;
+}
+
+/* Секция преимущества */
+
+.advatage-container{
+    display: flex;
+    justify-content: space-between;
+}
+.advantage-item{
+    flex: 1 0 50%;
+    margin-left: 15px;
+}
+.advantage-item:first-of-type{
+    margin-left: 0;
+}
+.advantage-head{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 800;
+    margin-bottom: 25px;
+
+}
+.advantage-head img{
+    margin-bottom: 10px;
+}
+
+.advantage-text{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    min-height: 68px;
+}
+
+/* Последние вопросы */
+.question-posts{
+    text-align: center;
+}
+.question-posts .btn-solid{
+    display: inline-block;
+}
+.question-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px 20px;
+}
+.question-item{
+    flex: 1 0 31%;
+    margin: 0 10px;
+    margin-bottom: 15px;
+    padding: 30px;
+    border-radius: 0.5rem;
+    border: 1px solid #eeeeef;
+    text-align: left;
+    position: relative;
+}
+.question-item::before{
+    content: '?';
+    font-weight: 900;
+    font-size: 100px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgba(255,255,255,.3);
+    line-height: 1;
+}
+.question-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Секция последние вопросы */
+/* Секция последние вопросы */
+.rewiews-posts{
+    text-align: center;
+}
+.rewiews-posts .btn-solid{
+    display: inline-block;
+}
+
+.rewiews-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+.rewiews-contents{
+    margin-bottom: 30px;
+}
+.rewiews-contents .rewiews-item{
+    margin-left: 10px;
+    padding: 30px;
+    text-align: left;
+    border: 1px solid #eeeeef;
+    border-radius: 5px;
+    min-height: 320px;
+    margin-bottom: 30px;
+}
+.rewiews-content .rewiews-item{
+    margin-left: 10px;
+    padding: 30px;
+    text-align: left;
+    flex: 1;
+    flex-wrap: wrap;
+    border: 1px solid #eeeeef;
+    border-radius: 5px;
+}
+.rewiews-content .rewiews-item:first-of-type{
+    margin-left: 0;
+}
+.rewiews-name{
+    font-weight: 800;
+    font-size: 21px;
+}
+.rewiews-date{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.rewiews-title{
+    font-size: 16px;
+}
+
+/* Популярные вызу */
+.vuz-content{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+.vuz-item{
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+.vuz-item .image{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #eeeeef;
+}
+.vuz-item .image img{
+    border-radius: 50%;
+}
+.vuz-item .title a{
+    color: #54555E;
+    font-size: 18px;
+    text-decoration: none;
+}
+.vuz-item .title a:hover{
+    text-decoration: underline;
+}
+
+/* Популярные специальности */
+.skills-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -10px;
+}
+.skills-item{
+    flex: 1 0 15%;
+    margin: 0 10px 10px;
+    text-align: center;
+}
+.skills-item .image{
+    margin-bottom: 5px;
+}
+.skills-item .image img{
+    border-radius: 50%;
+}
+.skills-item .title a{
+    color: #54555E;
+    font-size: 18px;
+    text-decoration: none;
+}
+.skills-item .title a:hover{
+    text-decoration: underline;
+}
+
+/* Style from donor kupit-diplom-47.com*/
+#document_calk{
+    border-top: none;
+    border-bottom: none;
+    overflow: hidden;
+    background: none;
+    padding: 0;
+    margin-top: 0;
+}
+.widget__custom-form{
+    border-top: 1px solid #4a97c2!important;
+    border-bottom: 1px solid #4a97c2!important;
+    background: #e9edf0!important;
+}
+.title_field{
+    font-size: 12px;
+}
+.cst__sidebar-cosial{
+    display: flex;
+}
+.widget__custom-block .widget-title{
+    color: #171821;
+}
+.block-serp{
+    margin: 24px 0;
+    height: 22.5px;
+    display: block;
+}
+.cst__sidebar-cosial a{
+    margin-right: 15px;
+}
+
+.nav-icon-toggle{
+    display: none;
+}
+.sidenav__menu-container .nav__menu{
+    display: flex;
+    flex-direction: column;
+}
+.breadcrumb{
+    margin: 24px 0;
+}
+.site-breadcrumbs.position-absolute{
+    position: relative!important;
+    margin: 20px 0px!important;
+    height: auto!important;
+    top: 0!important;
+    right: 0!important;
+}
+
+/* Адаптация уневерсальная */
+@media only screen and (max-width: 1279px) {
+    .nav__menu > li > a{
+        padding: 0 10px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .nav__menu > li > a{
+        padding: 0 5px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .nav-icon-toggle{
+        display: block;
+    }
+    .section-number{
+        background-position: center!important;
+    }
+    .fishka-item{
+        flex: 1;
+    }
+    .advantage-item{
+        flex: 1;
+    }
+    .advantage-text{
+        min-height: 92px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .content-number-title{
+        font-size: 25px;
+    }
+    .content-number-subtitle{
+        font-size: 21px;
+    }
+    .content-number-item p{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .content-number-item p span{
+        font-size: 25px;
+    }
+    .content-team-item{
+        flex: 1 0 31%;
+    }
+    .info-posts-container p{
+        font-size: 18px;
+        text-shadow: none;
+        line-height: 18px;
+    }
+    .info-posts-container p span{
+        text-shadow: none;
+    }
+    .fishka-container{
+        flex-direction: column;
+    }
+    .fishka-item{
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .fishka-item:last-of-type{
+        margin-bottom: 0;
+    }
+    .fishka-item-1::before, .fishka-item-2::before, .fishka-item-3::before{
+        font-size: 70px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .rewiews-content{
+        flex-direction: column;
+    }
+    .rewiews-item{
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .rewiews-item:last-of-type{
+        margin-bottom: 0;
+    }
+    .vuz-item{
+        flex: 1 0 40%;
+    }
+    .skills-item{
+        flex: 1 0 40%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .content-team-container{
+        flex-direction: column;
+    }
+    .content-team-item .image img{
+        width: 100%;
+    }
+    .content-team-item{
+        margin-left: 0;
+        flex: 1;
+        margin-bottom: 50px;
+    }
+    .advatage-container{
+        flex-direction: column;
+    }
+    .question-content{
+        flex-direction: column;
+    }
+}
+
+/* Burick */
+/* Calc */
+.but_rezalt,
+.rezalc_block
+{
+    display: none;
+}
