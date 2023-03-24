@@ -6,39 +6,53 @@
     <div class="vuz-content">
         <div class="vuz-item">
             <div class="image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vuz-rggu.jpg" alt="Российский государственный гуманитарный университет">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/01.jpg" alt="Санкт-Петербургский государственный университет">
             </div>
-            <div class="title">РГГУ</div>
+            <div class="title">СПбГУ</div>
         </div>
         <div class="vuz-item">
             <div class="image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vuz-rudn.jpg" alt="Российский университет дружбы народов">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/02.jpg" alt="Санкт-Петербургский политехнический университет Петра Великого">
             </div>
-            <div class="title">РУДН</div>
+            <div class="title">СПбПУ</div>
         </div>
         <div class="vuz-item">
             <div class="image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vuz-nitu.jpg" alt="Университет науки и технологий МИСИ">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/03.jpg" alt="Санкт-Петербургский государственный экономический университет">
             </div>
-            <div class="title">МИСиС</div>
+            <div class="title">СПбГЭУ</div>
         </div>
         <div class="vuz-item">
             <div class="image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vuz-bmstu.jpg" alt="Московский государственный технический университет">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/04.jpg" alt="Университет ИТМО">
             </div>
-            <div class="title">МГТУ</div>
+            <div class="title">ИТМО</div>
         </div>
         <div class="vuz-item">
             <div class="image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vuz-madi.jpg" alt="Московский автомобильно-дорожный государственный технический университет">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/05.jpg" alt="Санкт-Петербургский государственный университет">
             </div>
-            <div class="title">МАДИ</div>
+            <div class="title">СПГУ</div>
         </div>
         <div class="vuz-item">
             <div class="image">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/vuz-mgu.jpg" alt="Московский государственный университет">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/06.jpg" alt="Санкт-Петербургский государственный университет
+промышленных технологий и дизайна">
             </div>
-            <div class="title">МГУ</div>
+            <div class="title">СПбГУПТД</div>
+        </div>
+        <div class="vuz-item">
+            <div class="image">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/07.jpg" alt="Первый Санкт-Петербургский государственный медицинский университет им. И.П. Павлова">
+            </div>
+            <div class="title">ПСПбГМУ</div>
+        </div>
+        <div class="vuz-item">
+            <div class="image">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/08.jpg" alt="Санкт-Петербургский государственный университет аэрокосмического приборостроения">
+            </div>
+            <div class="title">ГУАП</div>
         </div>
     </div>
+    <a href="/vse-vuzy/" class="btn-solid">Смотреть все</a>
 </section>

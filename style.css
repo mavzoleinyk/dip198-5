@@ -108,6 +108,14 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 .color-violet{
     background-color: #8b5cf6;
 }
+.prof__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prof__list li{
+    flex: 1 0 25%;
+}
 
 /* Карточка продукта */
 .product-item{
@@ -560,10 +568,13 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 }
 
 /* Популярные вызу */
+.vuz-posts{
+    text-align: center;
+}
 .vuz-content{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -10px;
+    margin: 0 -10px 3rem;
 }
 .vuz-item{
     flex: 1;
@@ -589,6 +600,9 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 }
 
 /* Популярные специальности */
+.skills-posts{
+    text-align: center;
+}
 .skills-content{
     display: flex;
     flex-wrap: wrap;

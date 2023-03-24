@@ -45,4 +45,5 @@
             <div class="title"><a href="/kupit-diplom-vracha/">Врач</a></div>
         </div>
     </div>
+    <a href="/vse-speczialnosti/" class="btn-solid">Смотреть все</a>
 </section>
