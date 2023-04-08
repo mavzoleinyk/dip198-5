@@ -56,7 +56,7 @@ if ( ! defined( 'ABSPATH' ) ) {
               </div>
               <ul class="top-menu">
                 <li><a href="tel:+78127010022">7 (812) 701-00-22</a></li>
-                <li><a href="mailto:zakaz@dip-197.com">zakaz@dip-197.com</a></li>
+                <li><a href="mailto:zakaz@dip-197.com">zakaz@diplomy-78.com</a></li>
               </ul>
             </div>
           </div>

@@ -108,6 +108,18 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 .color-violet{
     background-color: #8b5cf6;
 }
+.color-001{
+    background-color: #A3D5DD;
+}
+.color-002{
+    background-color: #1E6671;
+}
+.color-003{
+    background-color: #75E6DA;
+}
+.color-004{
+    background-color: #0C2D48;
+}
 .prof__list{
     display: flex;
     flex-wrap: wrap;
@@ -272,13 +284,10 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     border-radius: 15px;
     padding: 30px;
 }
-.info-posts-container:first-of-type{
-    margin-bottom: 25px;
-}
 .info-posts-container p{
     margin-bottom: 0;
     font-size: 16px;
-    color: #fff;
+    color: #000;
     line-height: 22px;
 }
 .info-posts-container p span{
@@ -410,21 +419,21 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 }
 .fishka-item-1::before{
     content: '1';
-    font-size: 250px;
+    font-size: 110px;
     font-weight: 700;
     color: rgba(255,255,255,.3);
     line-height: 1;
 }
 .fishka-item-2::before{
     content: '2';
-    font-size: 250px;
+    font-size: 110px;
     font-weight: 700;
     color: rgba(255,255,255,.3);
     line-height: 1;
 }
 .fishka-item-3::before{
     content: '3';
-    font-size: 250px;
+    font-size: 110px;
     font-weight: 700;
     color: rgba(255,255,255,.3);
     line-height: 1;
@@ -511,8 +520,8 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     line-height: 1;
 }
 .question-title{
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 400;
     color: #fff;
 }
 
@@ -530,6 +539,7 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     justify-content: space-between;
     margin-bottom: 30px;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 .rewiews-contents{
     margin-bottom: 30px;
@@ -544,16 +554,18 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     margin-bottom: 30px;
 }
 .rewiews-content .rewiews-item{
-    margin-left: 10px;
     padding: 30px;
     text-align: left;
     flex: 1;
     flex-wrap: wrap;
-    border: 1px solid #eeeeef;
+    border: 1px solid transparent;
     border-radius: 5px;
+    background-color: #2E8BC0;
+    color: #fff;
+    margin-bottom: 15px;
 }
-.rewiews-content .rewiews-item:first-of-type{
-    margin-left: 0;
+.rewiews-content .rewiews-item:hover{
+    border: 1px solid #145DA0;
 }
 .rewiews-name{
     font-weight: 800;
@@ -571,15 +583,22 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 .vuz-posts{
     text-align: center;
 }
+.vuz-posts .btn-solid{
+    margin: 3rem auto;
+    display: inline-block;
+}
 .vuz-content{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -10px 3rem;
 }
 .vuz-item{
-    flex: 1;
-    margin: 0 10px;
+    flex: 1 0 31%;
+    margin: 0 10px 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .vuz-item .image{
     margin-bottom: 15px;
@@ -610,7 +629,7 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
     margin: 0 -10px;
 }
 .skills-item{
-    flex: 1 0 15%;
+    flex: 1 0 31%;
     margin: 0 10px 10px;
     text-align: center;
 }
@@ -689,6 +708,7 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 @media only screen and (max-width: 1200px) {
     .nav__menu > li > a{
         padding: 0 5px;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 991px) {
@@ -788,8 +808,6 @@ This is the child theme for Total theme, generated with Generate Child Theme plu
 
 /* Burick */
 /* Calc */
-.but_rezalt,
-.rezalc_block
-{
+.but_rezalt, .rezalc_block {
     display: none;
 }
